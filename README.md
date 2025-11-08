@@ -1,16 +1,32 @@
-# React + Vite
+# React Chart.js Practice (Basic Visualization)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of interactive data visualization built using **React**, **Chart.js**, and **react-chartjs-2**.
+This is part of my ongoing practice to master data visualization and frontend integration with moden chart libraries.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Uses **Chart.js** for data visualization
+- Demonstrates configuration of **titles**, **legends**, and **plugins**
 
-## React Compiler
+## Charts Included
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Bar Chart** - Monthly Sales
+- **Line Chart** - Revenue Growth
+- **Doughnut Chart** - Browser Usage
+- **Pie Chart** - Product Distribution
 
-## Expanding the ESLint configuration
+## Running the project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository
+npm install
+npm run dev
+
+## Dependencies
+
+- React + vite
+- tailwindcss
+- ChartJs and react-chartjs-2
+
+## Preview
+
+![Chart](screenshot/charts.png)
